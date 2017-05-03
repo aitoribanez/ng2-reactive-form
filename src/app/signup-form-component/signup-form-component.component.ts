@@ -28,7 +28,7 @@ export class SignupFormComponent implements OnInit {
     });
   }
 
-  onSubmit({ value, valid }: { value: User, valid: boolean }) {
-    console.log(value, valid);
+  onSubmit() {
+     console.log(this.user.value, this.user.valid);
   }
 }
