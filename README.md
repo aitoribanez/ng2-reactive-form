@@ -1,3 +1,12 @@
+Ejemplo básico de formularios reactivos por Todd Motto.
+https://toddmotto.com/angular-2-forms-reactive
+
+# Aprendizajes
+
+`FormControl` -> A class that powers an individual form control, tracks the value and validation status, whilst offering a wide set of public API methods.
+`FormGroup` -> A group of FormControl instances, also keeps track of the value and validation status for the said group, also offers public APIs.
+`FormBuilder` -> It’s essentially syntax sugar that creates FormGroup, FormControl and FormArray instances for us
+
 # ReactiveForms
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
