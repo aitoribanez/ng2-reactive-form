@@ -28,7 +28,16 @@ export class SignupFormComponent implements OnInit {
     });
   }
 
-  onSubmit() {
-     console.log(this.user.value, this.user.valid);
+  // usando Object destructuring
+  onSubmit({ value, valid }:{value: User, valid: boolean}) {
+    console.log(value, valid);
   }
+
+  /*onSubmit(value, valid) {
+    console.log(value.value, value.valid);
+  }*/
+
+  /*onSubmit() {
+     console.log(this.user.value, this.user.valid);
+  }*/
 }
